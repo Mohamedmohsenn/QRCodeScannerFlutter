@@ -69,28 +69,18 @@ class _QRScanPageState extends State<QRScanPage> {
                     "El-Malek El-Saleh",
                     "Al-Sayeda Zeinab",
                     "Saad Zaghloul",
-
-                    "Sadat",
-
                     "Nasser",
                     "Orabi",
-
-                    "Al-Shohadaa",
                     "Ghamra",
                     "El-Demerdash",
-
                     "Manshiet El-Sadr",
                     "Kobri El-Qobba",
                     "Hammamat El-Qobba",
-
                     "Saray El-Qobba",
                     "Hadayeq El-Zaitoun",
-
                     "Helmeyet El-Zaitoun",
-
                     "El-Matareyya",
                     "Ain Shams",
-
                     "Ezbet El-Nakhl",
                     "El-Marg",
                     "New El-Marg",
@@ -134,7 +124,6 @@ class _QRScanPageState extends State<QRScanPage> {
                     "Abdou Pasha",
                     "El-Geish",
                     "Bab El-Shaaria",
-                    "Attaba",
                     "Nasser","Maspero","Zamalek","Kit Kat"].map((String items) {
                     return DropdownMenuItem(
                         value: items,
