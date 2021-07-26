@@ -1,0 +1,29 @@
+name: qr_code_scanner_example
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.10.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.3
+  fluttertoast: ^8.0.7
+
+
+  cupertino_icons: ^1.0.0
+
+  # scan QR Code
+  flutter_barcode_scanner: ^1.0.1
+
+  # create QR Code
+  barcode_widget: ^1.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
